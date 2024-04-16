@@ -1,5 +1,5 @@
 import React from "react";
-import appwriteService from "../appwrite/config";   // we need to import services from config file to use services in Postcard component
+import appwriteService from "../appwrite/config";
 import { Link } from "react-router-dom";
 
 function PostCard({ $id, title, featuredImage }) {
